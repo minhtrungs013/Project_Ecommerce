@@ -1,0 +1,81 @@
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.navbar__lerf {
+  align-items: center;
+}
+.navbar__lerf_logo {
+  float: left;
+  padding: 0 8px;
+}
+.navbar__center-list {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-bottom: 0;
+  padding-left:2px;
+}
+.navbar__center-item {
+  list-style: none;
+}
+
+.navbar__center-link {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 12px;
+  font-weight: 800;
+  display: block;
+  font-family: "Cairo", sans-serif;
+  transition: all, 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  float: left;
+}
+.navbar__center-link:hover {
+  color: #7fad39;
+}
+
+.navbar__center {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.navbar__rigth {
+  align-items: center;
+}
+.navbar__rigth-list {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-bottom: 0;
+}
+.navbar__rigth-item {
+  list-style: none;
+  margin-right: 12px;
+}
+.navbar__rigth-icon {
+  color: #1c1c1c;
+}
+.navbar__rigth-body {
+  padding-right: 5px;
+  float: right;
+  display: flex !important;
+}
+.header__cart__price {
+  font-size: 14px;
+  color: #6f6f6f;
+  display: inline-block;
+}
+.header__cart__price span {
+  color: #1c1c1c;
+  font-weight: 700;
+}

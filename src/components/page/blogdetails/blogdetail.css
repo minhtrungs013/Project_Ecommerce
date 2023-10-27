@@ -1,0 +1,104 @@
+.blogpage__detail {
+  display: flex;
+}
+.blog__detail-icon {
+  height: 30px;
+  width: 70px;
+  font-size: 16px;
+  padding-top: 4px;
+}
+.blogpage_heading-detail {
+  text-align: left;
+  position: relative;
+  margin-bottom: 50px;
+}
+.blogpage_heading-detail::after {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 4px;
+  width: 200px;
+  background: #7fad39;
+  content: "";
+  margin: 0 auto;
+}
+.blog__details__text {
+  margin-bottom: 45px;
+}
+.blog__details__text img {
+  margin-bottom: 30px;
+}
+.blog__details__text p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Cairo", sans-serif;
+  color: #6f6f6f;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+.blog__details__text h3 {
+  color: #333333;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.blog__details__author__pic {
+  float: left;
+  margin-right: 15px;
+}
+.blog__details__author__pic img {
+  height: 92px;
+  width: 92px;
+  border-radius: 50%;
+  max-width: 100%;
+}
+.blog__details__author__text {
+  text-align: left;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.blog__details__author__text h6 {
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 16px;
+}
+.blog__details__author__text span {
+  font-size: 16px;
+  color: #6f6f6f;
+}
+.blog__details__widget ul {
+  margin-bottom: 5px;
+  padding-left: 0;
+}
+.blog__details__widget ul li {
+  text-align: left;
+  list-style: none;
+  font-size: 16px;
+  color: #6f6f6f;
+  list-style: none;
+  line-height: 30px;
+}
+.blog__details__widget ul li span {
+  color: #1c1c1c;
+  font-weight: 700;
+}
+.blog__details__social {
+  text-align: left;
+}
+.blog__details__widget .blog__details__social a {
+  display: inline-block;
+  font-size: 20px;
+  color: #6f6f6f;
+  margin-right: 24px;
+  transition: all, 0.3s;
+  text-decoration: none;
+}
+.blog__details__widget .blog__details__social a svg:hover {
+  color: #7fad39;
+}
+.blog__details__widget .blog__details__social a svg {
+  color: #6f6f6f;
+  height: 20px;
+  width: 20px;
+}

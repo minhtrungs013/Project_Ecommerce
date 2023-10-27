@@ -1,0 +1,25 @@
+.sidebar__item {
+    margin-bottom: 35px;
+}
+.sidebar__item h4 {
+    text-align: left;
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+.sidebar__item ul {
+    padding-left: 0;
+}
+.sidebar__item ul li {
+    list-style: none;
+}
+.sidebar__item ul li a {
+    font-size: 16px;
+    color: #1c1c1c;
+    line-height: 39px;
+    display: block;
+}
+.sidebar__lists{
+    border: none;
+}
